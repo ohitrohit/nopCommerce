@@ -25,7 +25,7 @@ public class AddProductsTest extends BaseClass {
 		
 		ProductInfoPage pig =new ProductInfoPage(driver);
 		
-	    pig.CreateProductWithName("Rohit420");
+	    pig.CreateProductWithName("Rohit"+ju.getRandomNumber());
 	    Thread.sleep(5000);
 	    
 	    pg.ClickOnLogo();

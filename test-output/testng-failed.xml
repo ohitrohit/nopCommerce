@@ -3,15 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="productsModule.SearchProductsTest">
+      <class name="loginModule.VerifyingLoginLogoutTest">
         <methods>
           <include name="AC_Config"/>
-          <include name="SearchTheProduct"/>
+          <include name="VerifyLoginLogout"/>
+          <include name="AF_Config"/>
+          <include name="BS_Config"/>
           <include name="BC_Config"/>
           <include name="AM_Config"/>
           <include name="BM_Config"/>
         </methods>
-      </class> <!-- productsModule.SearchProductsTest -->
+      </class> <!-- loginModule.VerifyingLoginLogoutTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

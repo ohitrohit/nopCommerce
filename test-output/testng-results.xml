@@ -1,79 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="4" total="7" passed="3" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Dashboard / nopCommerce administration]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-03-03T22:30:14 IST" name="Suite" finished-at="2024-03-03T22:31:16 IST" duration-ms="61488">
+  <suite started-at="2024-03-06T13:26:15 IST" name="Suite" finished-at="2024-03-06T13:27:39 IST" duration-ms="83808">
     <groups>
     </groups>
-    <test started-at="2024-03-03T22:30:14 IST" name="Test" finished-at="2024-03-03T22:31:16 IST" duration-ms="61488">
+    <test started-at="2024-03-06T13:26:15 IST" name="Test" finished-at="2024-03-06T13:27:39 IST" duration-ms="83808">
       <class name="loginModule.VerifyingLoginLogoutTest">
-        <test-method is-config="true" signature="BC_Config()[pri:0, instance:loginModule.VerifyingLoginLogoutTest@19e4653c]" started-at="2024-03-03T22:30:39 IST" name="BC_Config" finished-at="2024-03-03T22:30:41 IST" duration-ms="2316" status="PASS">
+        <test-method is-config="true" signature="BC_Config()[pri:0, instance:loginModule.VerifyingLoginLogoutTest@742ff096]" started-at="2024-03-06T13:26:47 IST" name="BC_Config" finished-at="2024-03-06T13:26:49 IST" duration-ms="2227" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BC_Config -->
-        <test-method is-config="true" signature="BM_Config()[pri:0, instance:loginModule.VerifyingLoginLogoutTest@19e4653c]" started-at="2024-03-03T22:30:41 IST" name="BM_Config" finished-at="2024-03-03T22:30:43 IST" duration-ms="1331" status="PASS">
+        <test-method is-config="true" signature="BM_Config()[pri:0, instance:loginModule.VerifyingLoginLogoutTest@742ff096]" started-at="2024-03-06T13:26:49 IST" name="BM_Config" finished-at="2024-03-06T13:26:54 IST" duration-ms="5433" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BM_Config -->
-        <test-method signature="VerifyLoginLogout()[pri:1, instance:loginModule.VerifyingLoginLogoutTest@19e4653c]" started-at="2024-03-03T22:30:43 IST" name="VerifyLoginLogout" finished-at="2024-03-03T22:30:44 IST" duration-ms="1247" status="PASS">
+        <test-method signature="VerifyLoginLogout()[pri:1, instance:loginModule.VerifyingLoginLogoutTest@742ff096]" started-at="2024-03-06T13:26:54 IST" name="VerifyLoginLogout" finished-at="2024-03-06T13:26:55 IST" duration-ms="1159" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Dashboard / nopCommerce administration]]>
             </line>
           </reporter-output>
         </test-method> <!-- VerifyLoginLogout -->
-        <test-method is-config="true" signature="AM_Config()[pri:0, instance:loginModule.VerifyingLoginLogoutTest@19e4653c]" started-at="2024-03-03T22:30:44 IST" name="AM_Config" finished-at="2024-03-03T22:30:46 IST" duration-ms="1734" status="PASS">
+        <test-method is-config="true" signature="AM_Config()[pri:0, instance:loginModule.VerifyingLoginLogoutTest@742ff096]" started-at="2024-03-06T13:26:55 IST" name="AM_Config" finished-at="2024-03-06T13:26:58 IST" duration-ms="2236" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AM_Config -->
-        <test-method is-config="true" signature="AC_Config()[pri:0, instance:loginModule.VerifyingLoginLogoutTest@19e4653c]" started-at="2024-03-03T22:30:46 IST" name="AC_Config" finished-at="2024-03-03T22:30:46 IST" duration-ms="211" status="PASS">
+        <test-method is-config="true" signature="AC_Config()[pri:0, instance:loginModule.VerifyingLoginLogoutTest@742ff096]" started-at="2024-03-06T13:26:58 IST" name="AC_Config" finished-at="2024-03-06T13:26:58 IST" duration-ms="179" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AC_Config -->
       </class> <!-- loginModule.VerifyingLoginLogoutTest -->
       <class name="productsModule.SearchProductsTest">
-        <test-method is-config="true" signature="BC_Config()[pri:0, instance:productsModule.SearchProductsTest@1ca3b418]" started-at="2024-03-03T22:30:15 IST" name="BC_Config" finished-at="2024-03-03T22:30:18 IST" duration-ms="3141" status="PASS">
+        <test-method is-config="true" signature="BS_Config()[pri:0, instance:productsModule.SearchProductsTest@3a7442c7]" started-at="2024-03-06T13:26:15 IST" name="BS_Config" finished-at="2024-03-06T13:26:15 IST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BS_Config -->
+        <test-method is-config="true" signature="BC_Config()[pri:0, instance:productsModule.SearchProductsTest@3a7442c7]" started-at="2024-03-06T13:26:15 IST" name="BC_Config" finished-at="2024-03-06T13:26:19 IST" duration-ms="3917" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BC_Config -->
-        <test-method is-config="true" signature="BM_Config()[pri:0, instance:productsModule.SearchProductsTest@1ca3b418]" started-at="2024-03-03T22:30:18 IST" name="BM_Config" finished-at="2024-03-03T22:30:19 IST" duration-ms="1556" status="PASS">
+        <test-method is-config="true" signature="BM_Config()[pri:0, instance:productsModule.SearchProductsTest@3a7442c7]" started-at="2024-03-06T13:26:19 IST" name="BM_Config" finished-at="2024-03-06T13:26:24 IST" duration-ms="4963" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BM_Config -->
-        <test-method signature="SearchTheProduct()[pri:3, instance:productsModule.SearchProductsTest@1ca3b418]" started-at="2024-03-03T22:30:19 IST" name="SearchTheProduct" finished-at="2024-03-03T22:30:37 IST" duration-ms="17450" status="PASS">
+        <test-method signature="SearchTheProduct()[pri:3, instance:productsModule.SearchProductsTest@3a7442c7]" started-at="2024-03-06T13:26:24 IST" name="SearchTheProduct" finished-at="2024-03-06T13:26:43 IST" duration-ms="19008" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchTheProduct -->
-        <test-method is-config="true" signature="AM_Config()[pri:0, instance:productsModule.SearchProductsTest@1ca3b418]" started-at="2024-03-03T22:30:37 IST" name="AM_Config" finished-at="2024-03-03T22:30:39 IST" duration-ms="2007" status="PASS">
+        <test-method is-config="true" signature="AM_Config()[pri:0, instance:productsModule.SearchProductsTest@3a7442c7]" started-at="2024-03-06T13:26:43 IST" name="AM_Config" finished-at="2024-03-06T13:26:46 IST" duration-ms="3056" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AM_Config -->
-        <test-method is-config="true" signature="AC_Config()[pri:0, instance:productsModule.SearchProductsTest@1ca3b418]" started-at="2024-03-03T22:30:39 IST" name="AC_Config" finished-at="2024-03-03T22:30:39 IST" duration-ms="263" status="PASS">
+        <test-method is-config="true" signature="AC_Config()[pri:0, instance:productsModule.SearchProductsTest@3a7442c7]" started-at="2024-03-06T13:26:46 IST" name="AC_Config" finished-at="2024-03-06T13:26:47 IST" duration-ms="187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AC_Config -->
+        <test-method is-config="true" signature="AF_Config()[pri:0, instance:productsModule.SearchProductsTest@3a7442c7]" started-at="2024-03-06T13:27:40 IST" name="AF_Config" finished-at="2024-03-06T13:27:40 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AF_Config -->
       </class> <!-- productsModule.SearchProductsTest -->
       <class name="productsModule.AddProductsTest">
-        <test-method is-config="true" signature="BC_Config()[pri:0, instance:productsModule.AddProductsTest@795509d9]" started-at="2024-03-03T22:30:46 IST" name="BC_Config" finished-at="2024-03-03T22:30:48 IST" duration-ms="2157" status="PASS">
+        <test-method is-config="true" signature="BC_Config()[pri:0, instance:productsModule.AddProductsTest@75437611]" started-at="2024-03-06T13:26:58 IST" name="BC_Config" finished-at="2024-03-06T13:27:01 IST" duration-ms="3277" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BC_Config -->
-        <test-method is-config="true" signature="BM_Config()[pri:0, instance:productsModule.AddProductsTest@795509d9]" started-at="2024-03-03T22:30:48 IST" name="BM_Config" finished-at="2024-03-03T22:30:50 IST" duration-ms="1467" status="PASS">
+        <test-method is-config="true" signature="BM_Config()[pri:0, instance:productsModule.AddProductsTest@75437611]" started-at="2024-03-06T13:27:01 IST" name="BM_Config" finished-at="2024-03-06T13:27:09 IST" duration-ms="7769" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BM_Config -->
-        <test-method signature="Addproduct()[pri:2, instance:productsModule.AddProductsTest@795509d9]" started-at="2024-03-03T22:30:50 IST" name="Addproduct" finished-at="2024-03-03T22:31:14 IST" duration-ms="24174" status="PASS">
+        <test-method signature="Addproduct()[pri:2, instance:productsModule.AddProductsTest@75437611]" started-at="2024-03-06T13:27:09 IST" name="Addproduct" finished-at="2024-03-06T13:27:36 IST" duration-ms="27221" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Addproduct -->
-        <test-method is-config="true" signature="AM_Config()[pri:0, instance:productsModule.AddProductsTest@795509d9]" started-at="2024-03-03T22:31:14 IST" name="AM_Config" finished-at="2024-03-03T22:31:16 IST" duration-ms="1868" status="PASS">
+        <test-method is-config="true" signature="AM_Config()[pri:0, instance:productsModule.AddProductsTest@75437611]" started-at="2024-03-06T13:27:36 IST" name="AM_Config" finished-at="2024-03-06T13:27:39 IST" duration-ms="2721" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AM_Config -->
-        <test-method is-config="true" signature="AC_Config()[pri:0, instance:productsModule.AddProductsTest@795509d9]" started-at="2024-03-03T22:31:16 IST" name="AC_Config" finished-at="2024-03-03T22:31:16 IST" duration-ms="262" status="PASS">
+        <test-method is-config="true" signature="AC_Config()[pri:0, instance:productsModule.AddProductsTest@75437611]" started-at="2024-03-06T13:27:39 IST" name="AC_Config" finished-at="2024-03-06T13:27:39 IST" duration-ms="186" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AC_Config -->

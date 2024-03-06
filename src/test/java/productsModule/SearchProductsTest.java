@@ -20,7 +20,7 @@ public class SearchProductsTest extends BaseClass{
 		Thread.sleep(5000);
 		
 		ProductsPage pg = new ProductsPage(driver);
-		pg.SearchtheProduct("Rohit420");
+		pg.SearchtheProduct("Rohit"+ju.getRandomNumber());
 		Thread.sleep(5000);
 		pg.ClickOnLogo();
 	}

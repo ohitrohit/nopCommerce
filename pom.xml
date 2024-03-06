@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>nopCommerce</groupId>
-  <artifactId>nopCommerce</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  
-  <build>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>nopCommerce</groupId>
+	<artifactId>nopCommerce</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<build>
 		<pluginManagement>
 			<plugins>
 				<plugin>
@@ -12,9 +12,9 @@
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>3.2.3</version>
 					<configuration>
-					    <suiteXmlFiles>
-					    <suiteXmlFile>testng.xml</suiteXmlFile>
-					    </suiteXmlFiles>
+						<suiteXmlFiles>
+							<suiteXmlFile>testng.xml</suiteXmlFile>
+						</suiteXmlFiles>
 					</configuration>
 				</plugin>
 
@@ -40,6 +40,12 @@
 			<version>4.13.0</version>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.28</version>
+		</dependency>
 		<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
 		<dependency>
 			<groupId>io.github.bonigarcia</groupId>
